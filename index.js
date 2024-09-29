@@ -1,13 +1,13 @@
 const container = document.querySelector(".container");
-let squares = document.createElement("div");
 
-container.style.border = "1px solid black";
-container.style.height = "300px";
-container.style.width = "500px";
+for (let i = 0;  i < 256; i++) {
+    let squares = document.createElement("div");
 
-squares.style.border = "1px solid black";
-squares.style.width = "100px";
-squares.style.height = "200px"
+    squares.style.border = "2px solid black";
+    squares.style.width = "14px";
+    squares.style.height = "14px";
 
-container.appendChild(squares);
+    container.appendChild(squares);
+}
+
 
